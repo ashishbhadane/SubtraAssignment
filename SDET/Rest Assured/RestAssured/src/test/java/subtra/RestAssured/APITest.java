@@ -36,7 +36,7 @@ public class APITest {
 				then().contentType(ContentType.JSON).extract().response();
 
 		// parsing response and storing values in variables
-		float strresponse = (float)response.path("main.temp");
+		String strresponse = String.valueOf(response.path("main.temp"));
 		int humidity = response.path("main.humidity");
 		float windspeed = response.path("wind.speed");
 
