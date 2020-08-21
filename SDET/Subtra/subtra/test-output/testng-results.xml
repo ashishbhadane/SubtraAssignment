@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="28514" started-at="2020-08-21T22:08:21 IST" finished-at="2020-08-21T22:08:49 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="28514" started-at="2020-08-21T22:08:21 IST" finished-at="2020-08-21T22:08:49 IST">
+      <class name="Tests.weatherPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.weatherPageTest@74650e52]" name="setup" is-config="true" duration-ms="13439" started-at="2020-08-21T22:08:21 IST" finished-at="2020-08-21T22:08:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="navigatingToWeather()[pri:0, instance:Tests.weatherPageTest@74650e52]" name="navigatingToWeather" duration-ms="14195" started-at="2020-08-21T22:08:34 IST" finished-at="2020-08-21T22:08:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigatingToWeather -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Tests.weatherPageTest@74650e52]" name="teardown" is-config="true" duration-ms="819" started-at="2020-08-21T22:08:48 IST" finished-at="2020-08-21T22:08:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Tests.weatherPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
